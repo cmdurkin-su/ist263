@@ -1,0 +1,15 @@
+body {
+    background-color: #d8d8d8;
+    text
+}
+td, th {border: 1px solid rgb(105, 140, 231);}
+p {color: #f18119;}
+h1,h2,h3 {color: #217ea5;}
+li {color: #f18119;}
+td,th {color: #f18119;}
+caption {color: #217ea5;}
+a {color: #f18119}
+a:hover {color: #217ea5}
+nav a:hover {color: #217ea5;}
+nav {margin-bottom: 30px;}
+label {color: #f18119;}
