@@ -25,3 +25,11 @@ label {color: #f18119;}
 }
 .row1,.row2 {display: flex;}
 .chart {padding-top: 20px;}
+@media only screen and (max-width: 100%) {
+    .ball {display: none;}
+}
+.row2 {flex-wrap: wrap;}
+@media only screen and (min-width: 768px) and (max-width: 1024) {
+    nav {display: none;}
+    div nav {display: 100%;}
+}
