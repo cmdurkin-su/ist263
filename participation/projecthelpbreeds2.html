@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Professional-looking website</title>
+	<style>
+		/* CSS code for styling the website */
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			text-align: center;
+			padding: 30px 0;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		nav {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      nav a {
+        color: #333;
+        text-decoration: none;
+      }
+      nav a:hover {
+        color: #000;
+      }
+
+		.box {
+			flex-basis: calc(50% - 20px);
+			flex-grow: 1;
+			background-color: #fff;
+			border: 1px solid #ccc;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			margin: 10px;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+			cursor: pointer;
+		}
+
+		.box:hover {
+			transform: scale(1.05);
+			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+		}
+
+		.box img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+
+		.box h2 {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+
+		.box p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.box-description {
+			display: none;
+			font-size: 16px;
+			line-height: 1.5;
+			margin-top: 20px;
+		}
+
+		.box:hover .box-description {
+			display: block;
+		}
+
+		@media screen and (max-width: 991px) {
+			.box {
+				flex-basis: calc(33.33% - 20px);
+			}
+		}
+
+		@media screen and (max-width: 575px) {
+			.box {
+				flex-basis: calc(50% - 20px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+	<h1>Dog Breeds</h1>
+</header>
+<nav>
+	<a href="https://cmdurkin-su.github.io/ist263/participation/projecthelp.html" target="_blank">Home</a>">Home</a>
+	<a href="#">Breeds</a>
+	<a href="#">Adopt</a>
+  </nav>
+	<div class="container">
+		<div class="box">
+			<img src="../project/images/beagle.jpg" alt="beagle">
+			<h2>Beagle</h2>
+			<p> Average Size:</p>
+			<p>	Average Weight:</p>
+			<p> Price:</p>
+			<p> Friendliness (1-5):</p>
+
+			<div class="box-description">
+				<p>The Beagle is a small-sized hound dog breed that is known for its friendly and playful personality. They are a popular breed for families due to their loving and loyal nature. Beagles are also known for their intelligence and eagerness to please, making them easy to train. Beagles have a short, smooth coat that comes in a variety of colors, including black, tan, white, and red. They have long, droopy ears and a long, straight tail. Beagles have a strong sense of smell, making them excellent hunting dogs. They are also known for their loud, distinctive bark. Beagles are active and energetic dogs that need plenty of exercise and mental stimulation. They are happiest when they are given plenty of opportunities to explore and play. Beagles are also known for their strong social skills and love of people. They are friendly and outgoing, and they get along well with other dogs and children.</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="https://via.placeholder.com/300x200" alt="Image">
+			<h2>Box title</h2>
+			<p>Box description</p>
+			<div class="box-description">
+				<p>Box additional description</p>
+			</div>
+		</div>
+		<!-- Add 6 more rows of boxes here -->
+	</div>
+</body>
+</html>
