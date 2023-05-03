@@ -8,7 +8,9 @@ body {
 h1 {
     text-align: center;
     padding: 30px 0;
+    color: rgb(244, 136, 28);
 }
+h2 {color: rgb(0, 78, 156);}
 
 .container {
     display: flex;
@@ -17,7 +19,7 @@ h1 {
     margin: 0 auto;
 }
 nav {
-background-color: #eee;
+background-color: rgb(0, 78, 156);
 border: 1px solid #ccc;
 display: flex;
 justify-content: space-between;
@@ -34,8 +36,8 @@ color: #000;
 .box {
     flex-basis: calc(50% - 20px);
     flex-grow: 1;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 10px;
@@ -93,11 +95,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #e8e8e8;
 }
 header {
-    background-color: rgb(6, 99, 221);
-    color: #fff;
+    background-color: #e8e8e8;
+    color: rgb(244, 136, 28);
     padding: 5px;
     text-align: center;
     font-size: 20px;
@@ -105,7 +107,7 @@ header {
     text-transform: uppercase;
 }
 nav {
-    background-color: #555;
+    background-color: rgb(0, 78, 156);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -134,7 +136,7 @@ section p {
     line-height: 1.5;
 }
 footer {
-    background-color: #333;
+    background-color: rgb(0, 78, 156);
     color: #fff;
     padding: 10px;
     text-align: center;
