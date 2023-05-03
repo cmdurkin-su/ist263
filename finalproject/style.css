@@ -8,7 +8,7 @@ body {
 h1 {
     text-align: center;
     padding: 30px 0;
-    color: rgb(244, 136, 28);
+    color: rgb(204, 102, 0);;
 }
 h2 {color: rgb(0, 78, 156);}
 
@@ -99,7 +99,7 @@ body {
 }
 header {
     background-color: #e8e8e8;
-    color: rgb(244, 136, 28);
+    color: rgb(204, 102, 0);
     padding: 5px;
     text-align: center;
     font-size: 20px;
@@ -175,3 +175,20 @@ body {
   }
 h1, h2, main, body, header, footer, nav {font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;}
+    
+    .back-to-top {
+        display:block; 
+        position: fixed; 
+        bottom: 20px;
+        right: 10px; 
+        padding: 10px; 
+        background-color: #333; 
+        color: #fff; 
+        text-decoration: none; 
+        border-radius: 5px; 
+    }
+    
+    .back-to-top:hover {
+        background-color: #555; 
+    }
+    
