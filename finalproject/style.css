@@ -96,11 +96,11 @@ body {
     background-color: #f2f2f2;
 }
 header {
-    background-color: #333;
+    background-color: rgb(6, 99, 221);
     color: #fff;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -171,5 +171,5 @@ body {
   .box h2 {
     margin-top: 0;
   }
-h1, h2, main, body, header, footer {font-family: 'Raleway', sans-serif;
+h1, h2, main, body, header, footer, nav {font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;}
